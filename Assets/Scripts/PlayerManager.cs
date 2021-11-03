@@ -5,6 +5,13 @@ public class PlayerManager : MonoBehaviour
 {
     public static bool isGameOver;
     public GameObject gameOverScreen;
+    public GameObject ladrillo;
+    public GameObject pared1;
+    public GameObject pared2;
+    public GameObject piso1;
+    public GameObject piso2;
+    public GameObject player;
+
     private void Awake()
     {
         isGameOver = false;
@@ -21,6 +28,11 @@ public class PlayerManager : MonoBehaviour
         if (isGameOver)
         {
             gameOverScreen.SetActive(true);
+            Destroy(player);
+            Destroy(pared1);
+            Destroy(pared2);
+            Destroy(piso1);
+            Destroy(piso2);
         }
     }
 
