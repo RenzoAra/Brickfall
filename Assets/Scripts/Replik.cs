@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Replik : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine("instanciar");
@@ -27,6 +26,8 @@ public class Replik : MonoBehaviour
     IEnumerator instanciar()
     {
         yield return new WaitForSeconds(1);
-        Instantiate(gameObject).transform.position = new Vector3(Random.Range(-27,27), 30, 0);
+        GameObject brick = Instantiate(gameObject);
+        brick.transform.position = new Vector3(Random.Range(-27, 27), 30, 0);
+        //Instantiate(gameObject).transform.position = new Vector3(Random.Range(-27,27), 30, 0);
     }
 }

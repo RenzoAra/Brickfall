@@ -5,7 +5,6 @@ public class PlayerManager : MonoBehaviour
 {
     public static bool isGameOver;
     public GameObject gameOverScreen;
-    public GameObject ladrillo;
     public GameObject pared1;
     public GameObject pared2;
     public GameObject piso1;
