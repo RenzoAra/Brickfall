@@ -25,12 +25,12 @@ public class PlayerController : MonoBehaviour
         ManageJump();
         */
 
-        if (Input.GetKey("left"))
+        if (Input.GetKey("left") | Input.GetKey("a"))
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1000f * Time.deltaTime, 0));
         }
 
-        if (Input.GetKey("right"))
+        if (Input.GetKey("right") | Input.GetKey("d"))
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1000f * Time.deltaTime, 0));
         }
@@ -41,6 +41,16 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetKeyDown("down"))
+        {
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -200f));
+        }
+
+        if (Input.GetKeyDown("w"))
+        {
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 200f));
+        }
+
+        if (Input.GetKeyDown("s"))
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -200f));
         }
