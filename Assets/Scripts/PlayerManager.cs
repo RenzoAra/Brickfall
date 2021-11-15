@@ -1,5 +1,7 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerManager : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject piso1;
     public GameObject piso2;
     public GameObject player;
+    public GameObject txtmonedas;
 
     private void Awake()
     {
@@ -27,11 +30,14 @@ public class PlayerManager : MonoBehaviour
         if (isGameOver)
         {
             gameOverScreen.SetActive(true);
+            txtmonedas.SetActive(false);
             Destroy(player);
             Destroy(pared1);
             Destroy(pared2);
             Destroy(piso1);
             Destroy(piso2);
+            Destroy(GameObject.FindWithTag("Ladrillo"));
+            Destroy(GameObject.FindWithTag("Coin"));
         }
     }
 

@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Replik : MonoBehaviour
+public class Moneda : MonoBehaviour
 {
+    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine("instanciar");
@@ -12,18 +13,15 @@ public class Replik : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (gameObject.transform.position.y <= 2)
-        {
-            Destroy(gameObject);
-        }*/
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "Player" | collision.transform.tag == "Piso")
+        /*if (collision.transform.tag == "Player")
         {
             Destroy(gameObject);
-        }
+        }*/
     }
 
     IEnumerator instanciar()
