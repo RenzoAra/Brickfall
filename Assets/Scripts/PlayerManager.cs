@@ -1,7 +1,8 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject piso2;
     public GameObject player;
     public GameObject txtmonedas;
+    
 
     private void Awake()
     {
@@ -21,7 +23,7 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

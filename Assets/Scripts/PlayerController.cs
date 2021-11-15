@@ -20,10 +20,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey("right"))
         {
             gameObject.transform.Translate(50f * Time.deltaTime, 0, 0);
-        }
-
-        ManageJump();
-        */
+        }*/
+        
 
         if (Input.GetKey("left") | Input.GetKey("a"))
         {
@@ -35,9 +33,10 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1000f * Time.deltaTime, 0));
         }
 
-        if (Input.GetKeyDown("up"))
+        if (Input.GetKeyDown("up") && canJump)
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 200f));
+            canJump = false;
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 300f));
         }
 
         if (Input.GetKeyDown("down"))
@@ -45,9 +44,10 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -200f));
         }
 
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("w") && canJump)
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 200f));
+            canJump = false;
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 300f));
         }
 
         if (Input.GetKeyDown("s"))
@@ -55,26 +55,12 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -200f));
         }
     }
-    
-    /*void ManageJump(){
 
-        if (gameObject.transform.position.y <= 0)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Piso")
         {
             canJump = true;
         }
-
-        if (Input.GetKey("up") && canJump && gameObject.transform.position.y < 10)
-        {
-            gameObject.transform.Translate(0, 50f * Time.deltaTime, 0);
-        }
-        else
-        {
-            canJump = false;
-
-            if(gameObject.transform.position.y > 0)
-            {
-                gameObject.transform.Translate(0, -50f * Time.deltaTime, 0);
-            }
-        }
-    }*/
+    }
 }

@@ -22,6 +22,11 @@ public class PlayerColision : MonoBehaviour
             PlayerManager.isGameOver = true;
             gameObject.SetActive(false);
         }
+        if (collision.transform.tag == "LimiteInferior")
+        {
+            PlayerManager.isGameOver = true;
+            gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

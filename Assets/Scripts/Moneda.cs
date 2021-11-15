@@ -18,17 +18,17 @@ public class Moneda : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        /*if (collision.transform.tag == "Player")
+        if (collision.transform.tag == "LimiteInferior")
         {
             Destroy(gameObject);
-        }*/
+        }
     }
 
     IEnumerator instanciar()
     {
         yield return new WaitForSeconds(1);
-        GameObject brick = Instantiate(gameObject);
-        brick.transform.position = new Vector3(Random.Range(-27, 27), 30, 0);
+        GameObject moneda = Instantiate(gameObject);
+        moneda.transform.position = new Vector3(Random.Range(-50, 50), 37, 0);
         //Instantiate(gameObject).transform.position = new Vector3(Random.Range(-27,27), 30, 0);
     }
 }
