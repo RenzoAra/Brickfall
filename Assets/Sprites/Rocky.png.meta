@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: f0f0ed49e12c71f4ebc82fa77ec75c80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5146381278953134949
+    second: Rocky_0
+  - first:
+      213: -6157088550451323787
+    second: Rocky_1
+  - first:
+      213: -1161384045272876859
+    second: Rocky_2
+  - first:
+      213: 1878604878455116026
+    second: Rocky_3
+  - first:
+      213: -7599921550644267327
+    second: Rocky_4
+  - first:
+      213: 6690006519666007121
+    second: Rocky_5
+  - first:
+      213: -4852420815306236176
+    second: Rocky_6
+  - first:
+      213: -1772844573446706569
+    second: Rocky_7
+  - first:
+      213: -4580862102853220008
+    second: Rocky_8
+  - first:
+      213: -3991366117053549504
+    second: Rocky_9
+  - first:
+      213: -2210133539622312172
+    second: Rocky_10
+  - first:
+      213: 1812236750112599019
+    second: Rocky_11
+  - first:
+      213: 2579032265943794040
+    second: Rocky_12
+  - first:
+      213: -1393177808192932035
+    second: Rocky_13
+  - first:
+      213: -5862241537165128313
+    second: Rocky_14
+  - first:
+      213: 470462488202692476
+    second: Rocky_15
+  - first:
+      213: 686439159129508864
+    second: Rocky_16
+  - first:
+      213: 381176203472921042
+    second: Rocky_17
+  - first:
+      213: -5207043553839202549
+    second: Rocky_18
+  - first:
+      213: 4214265364269563883
+    second: Rocky_19
+  - first:
+      213: -9198002164756419298
+    second: Rocky_20
+  - first:
+      213: -7381333571543517108
+    second: Rocky_21
+  - first:
+      213: 3549256625116238862
+    second: Rocky_22
+  - first:
+      213: 353613948891364910
+    second: Rocky_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rocky_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2623
+        width: 558
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9427455e716498b0800000000000000
+      internalID: -5146381278953134949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_1
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2623
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c59b3c590ad8aa0800000000000000
+      internalID: -6157088550451323787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_2
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 2623
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c834b53d5fe1efe0800000000000000
+      internalID: -1161384045272876859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_3
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 2623
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af012a50f25221a10800000000000000
+      internalID: 1878604878455116026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_4
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 2623
+        width: 558
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c63305ad97a78690800000000000000
+      internalID: -7599921550644267327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1979
+        width: 558
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c5db50c7da7dc50800000000000000
+      internalID: 6690006519666007121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_6
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1979
+        width: 559
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fed5fa4afcb8acb0800000000000000
+      internalID: -4852420815306236176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_7
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1979
+        width: 559
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aeabdd0479567e0800000000000000
+      internalID: -1772844573446706569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_8
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1979
+        width: 559
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859826a10328d60c0800000000000000
+      internalID: -4580862102853220008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_9
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 1979
+        width: 558
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0443e78e9a1db98c0800000000000000
+      internalID: -3991366117053549504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1333
+        width: 558
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417a2a861470451e0800000000000000
+      internalID: -2210133539622312172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1333
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebae5bf8bb562910800000000000000
+      internalID: 1812236750112599019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_12
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1333
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871c9db7e209ac320800000000000000
+      internalID: 2579032265943794040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_13
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1333
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37f3b13a207aace0800000000000000
+      internalID: -1393177808192932035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_14
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 1333
+        width: 558
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8bb5a16225aea0800000000000000
+      internalID: -5862241537165128313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 688
+        width: 558
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77c771f32b678600800000000000000
+      internalID: 470462488202692476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_16
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 688
+        width: 559
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c05df37c8b68900800000000000000
+      internalID: 686439159129508864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_17
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 688
+        width: 559
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1e5dcccb53a4500800000000000000
+      internalID: 381176203472921042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_18
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 688
+        width: 559
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f3d63d97ddcb7b0800000000000000
+      internalID: -5207043553839202549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_19
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 688
+        width: 558
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beff48a45041c7a30800000000000000
+      internalID: 4214265364269563883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 43
+        width: 558
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d6b66a3c12a5080800000000000000
+      internalID: -9198002164756419298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 43
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48bb73893c309990800000000000000
+      internalID: -7381333571543517108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_22
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 43
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0451c4881e714130800000000000000
+      internalID: 3549256625116238862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky_23
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 43
+        width: 559
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2efa43530a48e400800000000000000
+      internalID: 353613948891364910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

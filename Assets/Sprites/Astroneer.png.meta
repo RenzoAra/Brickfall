@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 4e7406960f144bc49a395bd633016b17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -822003905594346553
+    second: Astroneer_0
+  - first:
+      213: 3107300382185555068
+    second: Astroneer_1
+  - first:
+      213: 6900539441606169631
+    second: Astroneer_2
+  - first:
+      213: -7870354094527419355
+    second: Astroneer_3
+  - first:
+      213: -6220931612924911952
+    second: Astroneer_4
+  - first:
+      213: -286130804296494805
+    second: Astroneer_5
+  - first:
+      213: -6467866136585447562
+    second: Astroneer_6
+  - first:
+      213: 3439769894660408588
+    second: Astroneer_7
+  - first:
+      213: -6691731571630767256
+    second: Astroneer_8
+  - first:
+      213: 8284199662431770863
+    second: Astroneer_9
+  - first:
+      213: -1758291941975059634
+    second: Astroneer_10
+  - first:
+      213: -6961039522936543723
+    second: Astroneer_11
+  - first:
+      213: 1157316707756856220
+    second: Astroneer_12
+  - first:
+      213: 8449664942989570859
+    second: Astroneer_13
+  - first:
+      213: 1247053053455512894
+    second: Astroneer_14
+  - first:
+      213: 4406801115904528076
+    second: Astroneer_15
+  - first:
+      213: 3029918091537628246
+    second: Astroneer_16
+  - first:
+      213: -415026396023649941
+    second: Astroneer_17
+  - first:
+      213: -3900381571982577457
+    second: Astroneer_18
+  - first:
+      213: 2921407842946741513
+    second: Astroneer_19
+  - first:
+      213: 3235161855888172718
+    second: Astroneer_20
+  - first:
+      213: -2827065676776952837
+    second: Astroneer_21
+  - first:
+      213: -5625320271162673359
+    second: Astroneer_22
+  - first:
+      213: 6338849282528120880
+    second: Astroneer_23
+  - first:
+      213: 4350414886405050849
+    second: Astroneer_24
+  - first:
+      213: 1956226522706783787
+    second: Astroneer_25
+  - first:
+      213: -2940084264337293211
+    second: Astroneer_26
+  - first:
+      213: 8925790181404408667
+    second: Astroneer_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Astroneer_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3253
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3b0139dc7a794f0800000000000000
+      internalID: -822003905594346553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 3253
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740b920c395f1b20800000000000000
+      internalID: 3107300382185555068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_2
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 3253
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14128fbf04a3cf50800000000000000
+      internalID: 6900539441606169631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_3
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 3253
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ce62366a2e6c290800000000000000
+      internalID: -7870354094527419355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_4
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 3253
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bedc9f68afcaa9a0800000000000000
+      internalID: -6220931612924911952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2607
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b215c9aac85770cf0800000000000000
+      internalID: -286130804296494805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_6
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2607
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677db0a54068d36a0800000000000000
+      internalID: -6467866136585447562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_7
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2607
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0501589e748cbf20800000000000000
+      internalID: 3439769894660408588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_8
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2607
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8638ea407913223a0800000000000000
+      internalID: -6691731571630767256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_9
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 2607
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe818af83b367f270800000000000000
+      internalID: 8284199662431770863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1962
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43152b6bca4997e0800000000000000
+      internalID: -1758291941975059634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_11
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1962
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516a9ef5f6b656f90800000000000000
+      internalID: -6961039522936543723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_12
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1962
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93d87af96d9f0010800000000000000
+      internalID: 1157316707756856220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_13
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1962
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23f6f55f7d334570800000000000000
+      internalID: 8449664942989570859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_14
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 1962
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35384b152c6e4110800000000000000
+      internalID: 1247053053455512894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1318
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec845444a182d30800000000000000
+      internalID: 4406801115904528076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_16
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1318
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c31a8737e6c0a20800000000000000
+      internalID: 3029918091537628246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_17
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1318
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69899411b78d3af0800000000000000
+      internalID: -415026396023649941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_18
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1318
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0bf7910af0fd9c0800000000000000
+      internalID: -3900381571982577457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_19
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 1318
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90571e274fcea8820800000000000000
+      internalID: 2921407842946741513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 672
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6ab1b319a95ec20800000000000000
+      internalID: 3235161855888172718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_21
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 672
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfba203debe34c8d0800000000000000
+      internalID: -2827065676776952837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_22
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 672
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1377b818409dee1b0800000000000000
+      internalID: -5625320271162673359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_23
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 672
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03014d976dd18f750800000000000000
+      internalID: 6338849282528120880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_24
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 672
+        width: 666
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e19eb92a47cf5c30800000000000000
+      internalID: 4350414886405050849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ea22a68a9e52b10800000000000000
+      internalID: 1956226522706783787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_26
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 27
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560c57650f8b237d0800000000000000
+      internalID: -2940084264337293211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astroneer_27
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 27
+        width: 666
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b774e01e6cedb70800000000000000
+      internalID: 8925790181404408667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
