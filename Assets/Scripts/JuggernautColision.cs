@@ -9,6 +9,7 @@ public class JuggernautColision : MonoBehaviour
     public Text txtmonedas;
     public Text txtmonedasfinal;
     public int invincibilityLimit = 0;
+    public GameObject shield;
 
     void start(){
 
@@ -46,6 +47,11 @@ public class JuggernautColision : MonoBehaviour
         if (collision.gameObject.tag == "Coin")
         {
             cantidadmonedas++;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "ShieldPowerUp")
+        {
+            shield.SetActive(true);
             Destroy(collision.gameObject);
         }
     }

@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - Piso
   - LimiteInferior
+  - ShieldPowerUp
   layers:
   - Default
   - TransparentFX

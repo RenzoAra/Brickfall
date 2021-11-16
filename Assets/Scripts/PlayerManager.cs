@@ -40,6 +40,7 @@ public class PlayerManager : MonoBehaviour
             Destroy(piso2);
             Destroy(GameObject.FindWithTag("Ladrillo"));
             Destroy(GameObject.FindWithTag("Coin"));
+            Destroy(GameObject.FindWithTag("ShieldPowerUp"));
         }
     }
 

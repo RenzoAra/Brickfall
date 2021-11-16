@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class PlayerColision : MonoBehaviour
 {
-    
     public int cantidadmonedas;
     public Text txtmonedas;
     public Text txtmonedasfinal;
+    public GameObject shield;
+
     void Update()
     {
         txtmonedas.text = "Monedas: " + cantidadmonedas;
@@ -34,6 +35,11 @@ public class PlayerColision : MonoBehaviour
         if (collision.gameObject.tag == "Coin")
         {
             cantidadmonedas++;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "ShieldPowerUp")
+        {
+            shield.SetActive(true);
             Destroy(collision.gameObject);
         }
     }
