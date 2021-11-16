@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Moneda : MonoBehaviour
 {
+    public int probability;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +14,6 @@ public class Moneda : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
