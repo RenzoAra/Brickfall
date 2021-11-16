@@ -9,6 +9,7 @@ TagManager:
   - Piso
   - LimiteInferior
   - ShieldPowerUp
+  - Bullet
   layers:
   - Default
   - TransparentFX

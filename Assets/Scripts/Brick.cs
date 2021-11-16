@@ -26,6 +26,14 @@ public class Brick : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag == "Bullet")
+        {
+            Destroy(gameObject);
+        }
+    }
+
     IEnumerator instanciar()
     {
         yield return new WaitForSeconds(1);
