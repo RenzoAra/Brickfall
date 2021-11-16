@@ -41,6 +41,7 @@ public class PlayerManager : MonoBehaviour
             Destroy(GameObject.FindWithTag("Ladrillo"));
             Destroy(GameObject.FindWithTag("Coin"));
             Destroy(GameObject.FindWithTag("ShieldPowerUp"));
+            Destroy(GameObject.FindWithTag("ExtraLife"));
         }
     }
 

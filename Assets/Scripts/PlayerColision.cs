@@ -9,6 +9,7 @@ public class PlayerColision : MonoBehaviour
     public Text txtmonedas;
     public Text txtmonedasfinal;
     public GameObject shield;
+    public int vidas;
 
     void Update()
     {
@@ -20,8 +21,12 @@ public class PlayerColision : MonoBehaviour
     {
         if(collision.transform.tag == "Ladrillo")
         {
-            PlayerManager.isGameOver = true;
-            gameObject.SetActive(false);
+            vidas--;
+            if(vidas == 0){
+                PlayerManager.isGameOver = true;
+                gameObject.SetActive(false);
+            }
+            
         }
         if (collision.transform.tag == "LimiteInferior")
         {
@@ -40,6 +45,11 @@ public class PlayerColision : MonoBehaviour
         if (collision.gameObject.tag == "ShieldPowerUp")
         {
             shield.SetActive(true);
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "ExtraLife")
+        {
+            vidas++;
             Destroy(collision.gameObject);
         }
     }

@@ -10,6 +10,7 @@ TagManager:
   - LimiteInferior
   - ShieldPowerUp
   - Bullet
+  - ExtraLife
   layers:
   - Default
   - TransparentFX

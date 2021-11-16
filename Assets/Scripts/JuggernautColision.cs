@@ -10,6 +10,7 @@ public class JuggernautColision : MonoBehaviour
     public Text txtmonedasfinal;
     public int invincibilityLimit = 0;
     public GameObject shield;
+    public int vidas;
 
     void start(){
 
@@ -25,8 +26,12 @@ public class JuggernautColision : MonoBehaviour
     {
         if(collision.transform.tag == "Ladrillo" & JuggernautController.isInvincible == false)
         {
-            PlayerManager.isGameOver = true;
-            gameObject.SetActive(false);
+            
+            vidas--;
+            if(vidas == 0){
+                PlayerManager.isGameOver = true;
+                gameObject.SetActive(false);
+            }
         }
         if (invincibilityLimit < 3){
             invincibilityLimit = invincibilityLimit + 1;
@@ -52,6 +57,11 @@ public class JuggernautColision : MonoBehaviour
         if (collision.gameObject.tag == "ShieldPowerUp")
         {
             shield.SetActive(true);
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "ExtraLife")
+        {
+            vidas++;
             Destroy(collision.gameObject);
         }
     }

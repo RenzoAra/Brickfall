@@ -18,4 +18,12 @@ public class Bullet : MonoBehaviour
         MyRb.velocity = new Vector2(0, +Speed);
         Destroy(gameObject, 5f);
     }
+
+        private void OnTriggerEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "LimiteInferior")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
