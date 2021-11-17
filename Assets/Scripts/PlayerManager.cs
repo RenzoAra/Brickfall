@@ -25,6 +25,13 @@ public class PlayerManager : MonoBehaviour
     public GameObject IceBall;
     public GameObject Jagguer;
     public GameObject Rocky;
+    //Backgrounds
+    public GameObject Forest;
+    public GameObject DarkForest;
+    public GameObject Desert;
+    public GameObject VolcanoOutside;
+    public GameObject VolcanoInside;
+    public GameObject Mountains;
 
     // Next update in second
     private int nextUpdate=1;
@@ -34,7 +41,9 @@ public class PlayerManager : MonoBehaviour
     
 
     public CharacterDatabase characterDB;
+    public CharacterDatabase backgroundsDB;
     private int selectedOption = 0;
+    private int selectedBackground = 0;
 
     private void Awake()
     {
@@ -51,6 +60,14 @@ public class PlayerManager : MonoBehaviour
             Load();
         }
         UpdateCharacter(selectedOption);
+
+        if(!PlayerPrefs.HasKey("selectedBackground")){
+            selectedBackground = 0;
+        }
+        else{
+            LoadBackground();
+        }
+        UpdateBackground(selectedBackground);
 
 
         GameObject.FindWithTag("Ladrillo").SetActive(true);
@@ -127,7 +144,7 @@ public class PlayerManager : MonoBehaviour
      }
 
     private void UpdateCharacter(int selectedOption){
-        Character character = characterDB.GetCharacter(selectedOption);
+        //Character character = characterDB.GetCharacter(selectedOption);
         switch(selectedOption){
             case 0:
                 Komu.SetActive(true);
@@ -153,7 +170,35 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    private void UpdateBackground(int selectedBackground){
+        //Character character = backgroundsDB.GetCharacter(selectedBackground);
+        switch(selectedBackground){
+            case 0:
+                Forest.SetActive(true);
+                break;
+            case 1:
+                DarkForest.SetActive(true);
+                break;
+            case 2:
+                Desert.SetActive(true);
+                break;
+            case 3:
+                VolcanoOutside.SetActive(true);
+                break;
+            case 4:
+                VolcanoInside.SetActive(true);
+                break;
+            case 5:
+                Mountains.SetActive(true);
+                break;
+        }
+    }
+
     private void Load(){
         selectedOption = PlayerPrefs.GetInt("selectedOption");
     }
+    private void LoadBackground(){
+        selectedBackground = PlayerPrefs.GetInt("selectedBackground");
+    }
 }
+

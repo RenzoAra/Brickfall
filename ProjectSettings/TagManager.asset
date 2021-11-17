@@ -18,6 +18,12 @@ TagManager:
   - Jugger
   - Rocky
   - FireBall
+  - DarkForest
+  - Forest
+  - Mountains
+  - VolcanoOutside
+  - VolcanoInside
+  - Desert
   layers:
   - Default
   - TransparentFX

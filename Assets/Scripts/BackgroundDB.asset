@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9986815c28b60b48b051e29cbe09b11, type: 3}
+  m_Name: BackgroundDB
+  m_EditorClassIdentifier: 
+  character:
+  - characterName: Forest
+    characterSprite: {fileID: 21300000, guid: d0bc4d2f24b75f94f9fa4e8bc4badb41, type: 3}
+  - characterName: DarkForest
+    characterSprite: {fileID: 21300000, guid: 82a71f34954500c46a85ae09247e81b4, type: 3}
+  - characterName: Desert
+    characterSprite: {fileID: 21300000, guid: 68f8351a12ef7444e91c5023bbaeb6b4, type: 3}
+  - characterName: VolcanoOutside
+    characterSprite: {fileID: 21300000, guid: d21b514449eaadf43a18f1681d89c108, type: 3}
+  - characterName: VolcanoInside
+    characterSprite: {fileID: 21300000, guid: 18ce83f3cca27ed4087a124d4d51089a, type: 3}
+  - characterName: Mountains
+    characterSprite: {fileID: 21300000, guid: 7fc3771caa9f00240ab2144fc2c72ff9, type: 3}
