@@ -17,7 +17,6 @@ public class Moneda : MonoBehaviour
     void Update()
     {
         //probability = Random.Range(0, 100);
-        Debug.Log(probability);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -20,7 +20,7 @@ public class Brick : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "Player" | collision.transform.tag == "Piso" | collision.transform.tag == "LimiteInferior" | collision.transform.tag == "Coin")
+        if (collision.transform.tag == "Player" | collision.transform.tag == "Piso" | collision.transform.tag == "LimiteInferior" | collision.transform.tag == "Coin" | collision.transform.tag == "ExtraLife")
         {
             Destroy(gameObject);
             //PlayerManager.ladrillo = gameObject;
