@@ -9,7 +9,7 @@ public class ExtraLife : MonoBehaviour
     void Start()
     {
         
-        StartCoroutine("instanciar");
+        //StartCoroutine("instanciar");
     }
 
     // Update is called once per frame

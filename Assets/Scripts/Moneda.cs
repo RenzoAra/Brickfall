@@ -9,8 +9,8 @@ public class Moneda : MonoBehaviour
     void Start()
     {
         
-        StartCoroutine("instanciar");
-        Debug.Log(probability);
+        //StartCoroutine("instanciar");
+        //Debug.Log(probability);
     }
 
     // Update is called once per frame

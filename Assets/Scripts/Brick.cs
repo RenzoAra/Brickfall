@@ -6,7 +6,7 @@ public class Brick : MonoBehaviour
 {
     void Start()
     {
-        StartCoroutine("instanciar");
+        //StartCoroutine("instanciar");
     }
 
     // Update is called once per frame
@@ -23,6 +23,8 @@ public class Brick : MonoBehaviour
         if (collision.transform.tag == "Player" | collision.transform.tag == "Piso" | collision.transform.tag == "LimiteInferior" | collision.transform.tag == "Coin")
         {
             Destroy(gameObject);
+            //PlayerManager.ladrillo = gameObject;
+            //gameObject.SetActive(false);
         }
     }
 
@@ -31,6 +33,8 @@ public class Brick : MonoBehaviour
         if (collision.transform.tag == "Bullet")
         {
             Destroy(gameObject);
+            //PlayerManager.ladrillo = gameObject;
+            //gameObject.SetActive(false);
         }
     }
 
