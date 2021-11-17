@@ -90,17 +90,17 @@ public class PlayerManager : MonoBehaviour
          
      // Update is called once per second
     public void Instanciar(int probabilidad){
-        if(probabilidad<=70){
+        if(probabilidad<=85){
             GameObject brick = Instantiate(ladrillo);
-            brick.transform.position = new Vector3(Random.Range(-50, 50), 37, 0);
+            brick.transform.position = new Vector3(Random.Range(-69, 69), 55, 0);
         }
-        if(probabilidad>70 && probabilidad<=90){
+        if(probabilidad>85 && probabilidad<=90){
             GameObject coin = Instantiate(moneda);
-            coin.transform.position = new Vector3(Random.Range(-50, 50), 37, 0);
+            coin.transform.position = new Vector3(Random.Range(-69, 69), 55, 0);
         }
-        if(probabilidad>90 && probabilidad<=100){
+        if(probabilidad>90 && probabilidad<=91){
             GameObject extralife = Instantiate(vidaExtra);
-            extralife.transform.position = new Vector3(Random.Range(-50, 50), 37, 0);
+            extralife.transform.position = new Vector3(Random.Range(-69, 69), 55, 0);
         }
      }
 }
