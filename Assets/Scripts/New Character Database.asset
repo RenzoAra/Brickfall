@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9986815c28b60b48b051e29cbe09b11, type: 3}
+  m_Name: New Character Database
+  m_EditorClassIdentifier: 
+  character:
+  - characterName: Komu
+    characterSprite: {fileID: 21300000, guid: 334397f2dca78214b9a71441c533ed6b, type: 3}
+  - characterName: IceBall
+    characterSprite: {fileID: 21300000, guid: 2f9162fefd4dd0c448e479cf2e5316df, type: 3}
+  - characterName: Birdie
+    characterSprite: {fileID: 21300000, guid: abde23331ed3e2c4fa1adbdab795a8b9, type: 3}
+  - characterName: Jagguer
+    characterSprite: {fileID: 21300000, guid: 51b3de2a6de5d2044be2c32e39815542, type: 3}
+  - characterName: FireBall
+    characterSprite: {fileID: -8262534425414574923, guid: bf9491a9bf5bc974daba62e58d68adf3, type: 3}
+  - characterName: Rocky
+    characterSprite: {fileID: 21300000, guid: ee3c3e12003423d4cb0e06af4065d28f, type: 3}
+  - characterName: Astronauta
+    characterSprite: {fileID: 21300000, guid: c718746125470c04a9aa08f869406c90, type: 3}

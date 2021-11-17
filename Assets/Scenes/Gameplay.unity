@@ -299,11 +299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: FireBall
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_Sprite
@@ -819,7 +819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Astronauta
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_Sprite
@@ -1019,7 +1019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Jugger
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_Sprite
@@ -1159,7 +1159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Birdie
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_FlipX
@@ -1827,8 +1827,16 @@ MonoBehaviour:
   ladrillo: {fileID: 44139640}
   moneda: {fileID: 541304833}
   vidaExtra: {fileID: 684243001}
+  Komu: {fileID: 512880201}
+  Birdie: {fileID: 1405023555}
+  Astronauta: {fileID: 288795713}
+  FireBall: {fileID: 789295305}
+  IceBall: {fileID: 1965606928}
+  Jagguer: {fileID: 1334088583}
+  Rocky: {fileID: 801621123}
   dificulty: 0
   incremento: 1
+  characterDB: {fileID: 11400000, guid: 2cfbcd985af53ba40a96c4ea75deb170, type: 2}
 --- !u!4 &851493196
 Transform:
   m_ObjectHideFlags: 0
@@ -2799,7 +2807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Komu
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_Sprite
@@ -3179,7 +3187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Rocky
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_Size.x
@@ -3488,7 +3496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508774235016357019, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: IceBall
       objectReference: {fileID: 0}
     - target: {fileID: 6648909535585507665, guid: 6a5190418152ff94c838b47864b8df26, type: 3}
       propertyPath: m_FlipX

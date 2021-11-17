@@ -17,12 +17,24 @@ public class PlayerManager : MonoBehaviour
     public GameObject ladrillo;
     public GameObject moneda;
     public GameObject vidaExtra;
+    //Players
+    public GameObject Komu;
+    public GameObject Birdie;
+    public GameObject Astronauta;
+    public GameObject FireBall;
+    public GameObject IceBall;
+    public GameObject Jagguer;
+    public GameObject Rocky;
+
     // Next update in second
     private int nextUpdate=1;
     private int probabilidad;
     public int dificulty = 0;
     public int incremento = 1;
     
+
+    public CharacterDatabase characterDB;
+    private int selectedOption = 0;
 
     private void Awake()
     {
@@ -31,6 +43,16 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        if(!PlayerPrefs.HasKey("selectedOption")){
+            selectedOption = 0;
+        }
+        else{
+            Load();
+        }
+        UpdateCharacter(selectedOption);
+
+
         GameObject.FindWithTag("Ladrillo").SetActive(true);
         GameObject.FindWithTag("Coin").SetActive(true);
         GameObject.FindWithTag("ShieldPowerUp").SetActive(true);
@@ -103,4 +125,35 @@ public class PlayerManager : MonoBehaviour
             extralife.transform.position = new Vector3(Random.Range(-69, 69), 55, 0);
         }
      }
+
+    private void UpdateCharacter(int selectedOption){
+        Character character = characterDB.GetCharacter(selectedOption);
+        switch(selectedOption){
+            case 0:
+                Komu.SetActive(true);
+                break;
+            case 1:
+                IceBall.SetActive(true);
+                break;
+            case 2:
+                Birdie.SetActive(true);
+                break;
+            case 3:
+                Jagguer.SetActive(true);
+                break;
+            case 4:
+                FireBall.SetActive(true);
+                break;
+            case 5:
+                Rocky.SetActive(true);
+                break;
+            case 6:
+                Astronauta.SetActive(true);
+                break;
+        }
+    }
+
+    private void Load(){
+        selectedOption = PlayerPrefs.GetInt("selectedOption");
+    }
 }

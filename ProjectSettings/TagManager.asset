@@ -11,6 +11,13 @@ TagManager:
   - ShieldPowerUp
   - Bullet
   - ExtraLife
+  - Komu
+  - IceBall
+  - Birdie
+  - Astronauta
+  - Jugger
+  - Rocky
+  - FireBall
   layers:
   - Default
   - TransparentFX

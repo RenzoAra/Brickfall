@@ -7,6 +7,7 @@ public class Brick : MonoBehaviour
     void Start()
     {
         //StartCoroutine("instanciar");
+        this.GetComponent<Rigidbody2D>().gravityScale = Random.Range(3, 6);
     }
 
     // Update is called once per frame
