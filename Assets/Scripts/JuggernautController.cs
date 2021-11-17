@@ -7,6 +7,7 @@ public class JuggernautController : MonoBehaviour
 
     public bool canJump;
     public static bool isInvincible = false;
+    public static int invincibilityLimit = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,8 +61,9 @@ public class JuggernautController : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -200f));
         }
 
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("e") && invincibilityLimit > 0)
         {
+            invincibilityLimit--;
             isInvincible = true;
         }
     }
